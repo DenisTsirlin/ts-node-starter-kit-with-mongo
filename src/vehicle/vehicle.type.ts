@@ -8,6 +8,7 @@ export type Vehicle = {
     Customer_Id: number
     Insurance_Expiration: Date | undefined
     Manufacturer: string
+    Model: string
     Number_Of_Kilometers:number
     Year_of_Manufacture:number
 }

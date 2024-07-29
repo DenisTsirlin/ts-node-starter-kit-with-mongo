@@ -39,6 +39,7 @@ export async function addVehicle(req: Request, res: Response) {
     }
 }
 
+
 export async function updateVehicle(req: Request, res: Response) {
     const { carNumber } = req.params;
     const updates = req.body;
